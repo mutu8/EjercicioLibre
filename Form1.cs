@@ -18,7 +18,7 @@ namespace EjercicioLibre
             InitializeComponent();
             
         }
-
+        
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Comentario Realizado por Gonzalo")
@@ -36,6 +36,8 @@ namespace EjercicioLibre
                     listBox1.DataSource = archivos;
                 }
             }
+            //Escribiendo una instrucción
+            Console.WriteLine("Se reporta Daniel Ruiz");
 
         }
 
