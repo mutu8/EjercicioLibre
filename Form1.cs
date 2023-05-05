@@ -16,10 +16,12 @@ namespace EjercicioLibre
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            Console.WriteLine("Comentario realizado por Steven");
             using (OpenFileDialog open = new OpenFileDialog() { Multiselect = true, Filter = "MP3|*.mp3|MP4|*.mp4" }) 
             {
                 if (open.ShowDialog() == DialogResult.OK) 
