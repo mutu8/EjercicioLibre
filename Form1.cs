@@ -21,6 +21,7 @@ namespace EjercicioLibre
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            Console.WriteLine("Comentario Realizado por Gonzalo")
             Console.WriteLine("Comentario realizado por Steven");
             using (OpenFileDialog open = new OpenFileDialog() { Multiselect = true, Filter = "MP3|*.mp3|MP4|*.mp4" }) 
             {
